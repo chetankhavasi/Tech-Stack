@@ -1,0 +1,9 @@
+dist/*
+node_modules/*
+target/*
+.vscode
+.scannerwork
+debug.log
+eyes.log
+.idea/
+package-lock.json

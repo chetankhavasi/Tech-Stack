@@ -1,0 +1,40 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "dist/",
+            "*.js",
+            "**/*.js"
+        ]
+    },
+    "jsRules": {},
+    "rules": {
+        "ter-indent": [true, 4],
+        "semicolon": [
+            true,
+            "never"
+        ],
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ],
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "trailing-comma": false,
+        "max-line-length": [ true, 210 ],
+        "no-return-await": true,
+        "no-empty-interface": true,
+        "no-shadowed-variable": true,
+        "unnecessary-constructor": true,
+        "no-var-requires": true,
+        "await-promise": true,
+        "object-literal-key-quotes": [true, "consistent"],
+        "interface-name" : [true, "never-prefix"]
+    },
+    "rulesDirectory": [ "node_modules/tslint-eslint-rules/dist/rules" ]
+}
